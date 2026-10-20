@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Sample</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>tabUI</h1>
+  </header>
+  <main>
+   <!--ここにHTMLを書きます-->
+   <div class="tab-container">
+        <ul class="tab-buttons">
+            <li class="tab-button active" data-id="news">最新記事</li>
+            <li class="tab-button" data-id="popular">人気記事</li>
+            <li class="tab-button" data-id="category">エンタメ</li>
+             <li class="tab-button" data-id="other">科学</li>
+        </ul>
+
+        <div class="tab-contents">
+            <div class="tab-content active" id="news">
+                <h2>最新記事</h2>
+                <p>ポケモンGO動作に不具合</p>
+                <p>公式サポートはXで『pokemonGO』でログイン、画面の読み込み、ゲームの動作に関する問題が発生していることを確認していると報告。</p>
+                
+            </div>
+            <div class="tab-content" id="popular">
+                <h2>人気記事</h2>
+                <p>『あと一球コール』の是非</p>
+                <p>阪神が日本シリーズ進出を逃した後、大きな話題を呼んだ「あと一球コール」の是非。</p>
+            </div>
+            <div class="tab-content" id="category">
+                <h2>エンタメ</h2>
+                <p>日テレ森圭介アナ
+                社労士試験合格
+                </p>
+                <p>「“暮らしにまつわるお金の専門家”を目指して、FP、宅建士に続いては、年金と健康保険をちゃんと勉強したいなと思ったのがきっかけ」</p>
+            </div>
+            <div class="tab-content" id="other">
+                <h2>科学</h2>
+                <p>H3ロケット10号機打ち上げ成功</p>
+                <p>午前4時41分、鹿児島県にある種子島宇宙センターから打ち上げられ火星衛星探査機MMXを予定の軌道に投入し、打ち上げは成功した</p>
+            </div>
+        </div>
+    </div>
+    ※yahoo！ニュース参考、引用
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
+</html>
